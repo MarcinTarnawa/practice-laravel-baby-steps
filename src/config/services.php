@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'moje_api' => [
+        'key' => env('MOJE_ZEWNETRZNE_API_KEY'), // Tu czytamy z .env
+        'secret' => env('MOJE_ZEWNETRZNE_API_SECRET'), // Opcjonalnie inne dane
+    ],
 ];
